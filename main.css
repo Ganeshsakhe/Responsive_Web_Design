@@ -1,6 +1,10 @@
 
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
 body {
-  background-color: white;
   line-height: 1;
 }
 ol, ul {
@@ -22,7 +26,7 @@ table {
 
 body {
   background: #293f50;
-  color: rgb(11, 10, 10);
+  color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -62,6 +66,7 @@ body {
 }
 
 
+
 .group:before,
 .group:after {
   content: "";
@@ -86,16 +91,15 @@ body {
 }
 .row-alt {
   background: #cbe2c1;
-  background: -webkit-linear-gradient(to right, black, #f6f1d3);
-  background:    -moz-linear-gradient(to right, black, #f6f1d3);
-  background:         linear-gradient(to right, black, #f6f1d3);
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
   padding: 44px 0 22px 0;
 }
 
 
-
 h1, h2, h3, h4 {
-  color:black;
+  color: #648880;
 }
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
@@ -137,12 +141,13 @@ em {
   line-height: 33px;
 }
 
+
 a {
-  color: #f5f7f7;
+  color: #648880;
   text-decoration: none;
 }
 a:hover {
-  color: #080909;
+  color: #a9b2b9;
 }
 p a {
   border-bottom: 1px solid #dfe2e5;
@@ -186,7 +191,6 @@ p a {
 }
 
 
-
 .logo {
   border-top: 4px solid #648880;
   float: left;
@@ -209,6 +213,7 @@ p a {
 }
 
 
+
 .primary-footer {
   color: #648880;
   font-size: 14px;
@@ -219,6 +224,7 @@ p a {
   float: left;
   font-weight: 400;
 }
+
 
 
 .nav {
@@ -232,6 +238,9 @@ p a {
 .nav li:last-child {
   margin-right: 0;
 }
+
+
+
 .hero {
   color: #fff;
   line-height: 44px;
@@ -255,7 +264,6 @@ p a {
   max-width: 100%
 }
 
-
 .speaker {
   margin-bottom: 44px;
 }
@@ -272,7 +280,6 @@ p a {
   margin: -66px 0 22px 0;
   vertical-align: top;
 }
-
 
 table {
   margin-bottom: 44px;
@@ -302,7 +309,7 @@ thead th {
   font-size: 24px;
 }
 tbody th {
-  color: #fcfdfd;
+  color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
   padding-top: 22px;
@@ -329,8 +336,9 @@ table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
-  color: #ecf2f7;
+  color: #a9b2b9;
 }
+
 
 .venue-theatre {
   margin-bottom: 66px;
@@ -357,7 +365,7 @@ textarea {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .register-group label {
-  color: #080909;
+  color: #648880;
   cursor: pointer;
   font-weight: 400;
 }
